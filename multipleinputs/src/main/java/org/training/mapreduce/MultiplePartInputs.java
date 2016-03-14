@@ -27,7 +27,7 @@ import org.apache.hive.hcatalog.mapreduce.MultiOutputFormat;
 import org.apache.hive.hcatalog.mapreduce.MultiOutputFormat.JobConfigurer;
 import org.apache.hive.hcatalog.mapreduce.OutputJobInfo;
 //import org.datanucleus.store.rdbms.table.Table;
-import org.training.hcatmultipleinputs.DataParser;
+import org.training.utils.DataParser;
 import org.training.hcatmultipleinputs.HCatMultipleInputs;
 
 
