@@ -1,0 +1,11 @@
+{
+  "name": "avro_cutmonth",
+  "type": "record",
+  "fields": [
+{"name":"cut_mo_iso_curr" , "type":"string"},
+{"name":"cut_mo_cycle" , "type":"string"},
+{"name":"cut_mo_product" , "type":"string"},
+{"name":"cutdate_year_mo" , "type":"string"},
+{"name":"cut_mo_jdate" , "type":"string"},
+{"name":"cut_mo_cutoff_grp" , "type":"string"}
+]}

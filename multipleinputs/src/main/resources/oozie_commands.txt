@@ -1,0 +1,6 @@
+oozie job -oozie http://gold-oozie.db.aexp.com:11000/oozie -config job.properties -submit
+oozie job -oozie http://gold-oozie.db.aexp.com:11000/oozie -config job.properties -run
+oozie job -oozie http://gold-oozie.db.aexp.com:11000/oozie -kill 0000185-160325222416399-oozie-mapr-W
+oozie job -oozie http://gold-oozie.db.aexp.com:11000/oozie -info 0000946-160325222416399-oozie-mapr-W
+export OOZIE_URL=http://gold-oozie.db.aexp.com:11000/oozie
+oozie job -info 0000947-160325222416399-oozie-mapr-W
